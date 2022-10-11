@@ -9,3 +9,6 @@ services:
 
   redis:
     image: redis:7-alpine
+
+  web:
+    image: nginx:1.23-alpine
